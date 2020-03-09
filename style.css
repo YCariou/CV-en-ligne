@@ -597,13 +597,13 @@ p {
 @media (max-width: 1200px)
 {
 	.mycontainer {
-		width: 100%;
+		width: 400px;
 		flex-direction: column;
 		align-items: center;
 	}
 
 	.mycontainer .card {
-		width: 400px;
+		width: 200px;
 	}
 
 	.mycontainer .card p {
@@ -614,9 +614,10 @@ p {
 @media (max-width: 768px)
 {
 	.mycontainer .card {
-		max-width: 300px;
+		width: 100%;
 		flex-direction: column;
 		height: auto;
+
 	}
 
 	.mycontainer .card .imgBx{
