@@ -500,6 +500,7 @@ p {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin-top: 20px;
+	padding: 0 150px;
 }
 
 .mycontainer .card {
@@ -597,13 +598,13 @@ p {
 @media (max-width: 1200px)
 {
 	.mycontainer {
-		width: 400px;
+		width: 100%;
 		flex-direction: column;
 		align-items: center;
 	}
 
 	.mycontainer .card {
-		width: 200px;
+		width: 100%;
 	}
 
 	.mycontainer .card p {
@@ -613,6 +614,10 @@ p {
 
 @media (max-width: 768px)
 {
+	.mesloisirs .mycontainer {
+		padding: 0;
+	}
+
 	.mycontainer .card {
 		width: 100%;
 		flex-direction: column;
