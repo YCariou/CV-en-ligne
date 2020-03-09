@@ -605,12 +605,16 @@ p {
 	.mycontainer .card {
 		width: 400px;
 	}
+
+	.mycontainer .card p {
+		font-size: 80%;
+	}
 }
 
 @media (max-width: 768px)
 {
 	.mycontainer .card {
-		max-width: 400px;
+		max-width: 300px;
 		flex-direction: column;
 		height: auto;
 	}
@@ -840,7 +844,7 @@ footer {
 	}
 
 	.sec1 {
-		padding-top: 50px;
+		padding-top: 200px;
 	}
 
 	.headerText h1,
